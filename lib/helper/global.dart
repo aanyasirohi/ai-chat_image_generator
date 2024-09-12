@@ -10,8 +10,8 @@ late Size mq;
 bool useAPIKey1 = true;
 
 // API keys (you should ideally store these securely)
-const String apiKey1 = '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';
-const String apiKey2 = 'AIzaSyAjGTQ3PhDLFi4sEPgXxGDyt3zuJhOOsTo';
+const String apiKey1 = //'use your api key';
+const String apiKey2 = //'use your key';
 
 // Function to get the active API key
 String getActiveApiKey() {
