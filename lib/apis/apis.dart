@@ -37,7 +37,7 @@ class APIs {
   static Future<List<String>> searchAiImages(String prompt) async {
     try {
       final res =
-      await get(Uri.parse('https://lexica.art/api/v1/search?q=apples=$prompt'));
+      await get(Uri.parse(''));//lexia search api
 
       final data = jsonDecode(res.body);
 
