@@ -81,7 +81,7 @@ class AppWrite {
 
   static void init() {
     client
-        .setEndpoint('https://cloud.appwrite.io/v1') // Replace with your Appwrite endpoint
-        .setProject('66e1858c000c954dfa9a'); // Replace with your project ID
+        .setEndpoint('') // Replace with your Appwrite endpoint
+        .setProject(''); // Replace with your project ID
   }
 }
